@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Courier New, monospace;
+    scroll-behavior: smooth;
 }
 
 .background{
@@ -50,6 +51,17 @@ nav ul li a:hover{
     transform: translate(-50);
 }
 
+.cod{
+    margin-top: 60px;
+    margin-left: 820px;
+    color: #545e45;
+}
+
+.color{
+    color: #545e45;
+
+}
+
 .sou{
     letter-spacing: 1px;
     font-size: 21px;
@@ -80,6 +92,7 @@ nav ul li a:hover{
 .linkedin a {
     color: #ad614a;
     font-size: 30px;
+    text-decoration: none;
 }
 
 .linkedin a:hover{
@@ -89,7 +102,7 @@ nav ul li a:hover{
 }
 
 .background-sobre{
-    background-image: url("https://i.imgur.com/2IkeXwZ.png");
+    background-color:#545e45;
     width: 100%;
     padding: 100px 0px;
 }
@@ -97,6 +110,10 @@ nav ul li a:hover{
 .background-sobre img{
     width: 430px;
     height: auto;
+}
+
+.foto{
+    border-radius: 30px;
 }
 
 .texto-sobre{
@@ -124,4 +141,245 @@ nav ul li a:hover{
     justify-content: space-around;
     width: 1130px;
     margin: 0 auto;
+}
+
+.projetos{
+    background-image: url("https://i.imgur.com/2IkeXwZ.png");
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titulo h2{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-image: url("https://i.imgur.com/83cMhfP.png");
+    height: 465px;
+    width: 435px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 65px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #545e45;
+}
+
+.card h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.card p{
+    color: #fff;
+    font-size:  20px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: #545e45;
+    color: #fff;
+    border: none;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #545e45;
+    cursor: pointer;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site{
+    margin-right: 20px;
+}
+
+.habilidades{
+    background-color:#545e45 ;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.cardhabi{
+    background-color:#ad614a;
+    height: 130px;
+    width: 130px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 55px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items:center;
+    display:inline-block;
+}
+
+.icons{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    width: 60px;
+    margin-left:35px;
+}
+
+.icons:hover{
+    transform: scale(1.4);
+    text-decoration: none;
+}
+
+.nomeh{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px ;
+    color: #fff;
+}
+
+.cursos{
+    background-image: url("https://i.imgur.com/2IkeXwZ.png");
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.cardcursos{
+    background-color:#545e45;
+    height: 330px;
+    width: 930px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 55px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items:center;
+    display:inline-block;
+}
+
+.escola{
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.certificado{
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.certificado:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.caixacursos{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px;
+    align-items: center;
+}
+
+.desc{
+    color: #fff;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.caixatotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
+
+.contato{
+    background-color:#545e45 ;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.achar{
+    margin-top: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:#fff;
+}
+
+.icones{
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 40px 150px 30px;
+    text-align: center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+.ic{
+    margin-right: 30px;
+}
+
+.cont{
+    display:inline-block;
+    text-align: center;
+    align-items:center;
+}
+
+.email{
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: #fff;
+    color: #ad614a;
+    height: 30px;
+    width: 380px;
+    border-radius: 100px;
+    font-size: 20px;
+    text-align: center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
 }
